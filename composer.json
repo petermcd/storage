@@ -12,7 +12,7 @@
   "keywords": ["dependency"],
   "autoload": {
     "psr-4": {
-      "RockProfile\\storage\\": "src/"
+      "RockProfile\\Storage\\": "src/"
     }
   },
   "authors": [
