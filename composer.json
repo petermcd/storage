@@ -24,8 +24,5 @@
   ],
   "require": {
     "php": ">=7.3.0"
-  },
-  "require-dev": {
-    "rockprofile/dependency-visualiser-neo4j": "dev-master"
   }
 }
