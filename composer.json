@@ -1,0 +1,31 @@
+{
+  "name": "rockprofile/storage",
+  "description": "Storage interface used for dependency visualiser packages",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0-only",
+  "homepage": "https://github.com/petermcd/storage",
+  "support": {
+    "issues": "https://github.com/petermcd/storage/issues"
+  },
+  "version": "1.0.0",
+  "type": "library",
+  "keywords": ["dependency"],
+  "autoload": {
+    "psr-4": {
+      "RockProfile\\storage\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Peter McDonald",
+      "homepage": "https://petermcdonald.co.uk",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.3.0"
+  },
+  "require-dev": {
+    "rockprofile/dependency-visualiser-neo4j": "dev-master"
+  }
+}
