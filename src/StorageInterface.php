@@ -33,6 +33,16 @@ interface StorageInterface{
     public function run():void;
 
     /**
+     * Interface for retrieving dependencies. Expected behaviour, if no parameters passed all dependencies are returned
+     * otherwise only paths to specified dependency are returned.
+     *
+     * @param string $vendor
+     * @param string $name
+     * @return array
+     */
+    public function getDependencies(string $vendor = '', string $name = ''):array;
+
+    /**
      * Interface to handle disconnecting from the storage engine.
      *
      * @return void
