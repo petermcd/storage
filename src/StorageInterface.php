@@ -18,7 +18,7 @@ interface StorageInterface{
      * @param Package $package
      * @return void
      */
-    public function addRecord(string $id, Package $package):void ;
+    public function addRecord(string $record_id, Package $package):void ;
 
     /**
      * Interface for adding a relation between 2 packages.
